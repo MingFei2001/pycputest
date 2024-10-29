@@ -10,11 +10,9 @@
 ####################################################
 
 # importing libraries
-import signal
 import multiprocessing
 import time
 import numpy as np
-import sys
 
 
 # stress testing function
