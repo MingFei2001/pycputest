@@ -12,9 +12,12 @@
 PycpuTest is a Python script designed to stress the CPU's capabilities by performing computationally intensive tasks for a specified time period. This project utilizes multiple processes to take full advantage of multiple-core CPUs.
 
 ### [LM Studio](https://lmstudio.ai/)
-> *Its a cool project ngl*
+> *It's a cool project ngl*
 
 This code was developed while I was playing with LM Studio. The idea for a CPU stressing tool emerged as a test project.
+
+## ⚠️ Lag Warning
+> Largely attempted to get CPU stressing results may cause lag due to excessive CPU usage... but let's be real, you probably want to stress your CPU anyway.
 
 ## Features
 - CPU Stressing: PycpuTest generates random numbers, calculates their sine, cosine, and tangent values, and stores these calculations in memory for an extended period.
@@ -28,7 +31,6 @@ This code was developed while I was playing with LM Studio. The idea for a CPU s
 
 ## Usage
 To use PycpuTest:
-
 1. Modify the time_period variable in the main.py file to change the duration of the CPU stressing process.
 2. Execute the script using python main.py.
 3. Monitor the CPU utilization and system resources during execution.
