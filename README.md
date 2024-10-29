@@ -16,10 +16,10 @@ PycpuTest is a Python script designed to stress the CPU's capabilities by perfor
 - Multithreading/Multiprocessing: The script utilizes Python's multiprocessing module to spawn multiple processes that execute the same task concurrently.
 
 ## Installation
-1. Clone this repository using your preferred method (e.g., Git CLI or GitHub Desktop).
+1. Clone this repository using your preferred method (e.g. `git clone https://github.com/MingFei2001/pycputest.git`)
 2. Open a terminal or command prompt and navigate to the project directory.
-3. Install dependencies by running pip install -r requirements.txt.
-4. Run the script by typing python main.py (replace main.py with your actual Python file name).
+3. Install dependencies by running `pip install -r requirements.txt`.
+4. Run the script by typing `python test.py`.
 
 ## Usage
 To use PycpuTest:
