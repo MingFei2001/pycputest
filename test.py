@@ -10,9 +10,11 @@
 ####################################################
 
 # importing libraries
+import signal
 import multiprocessing
 import time
 import numpy as np
+import sys
 
 
 # stress testing function
@@ -41,9 +43,9 @@ def main():
     # get test time from user
     try:
         test_time = int(input("How long you want this test to run:"))
-    except Exception:
+    except Exception as e:
         # error handling
-        print("The value is not a integer.")
+        print(f"Error in input: {str(e)}")
         print("Program exiting...")
         exit()
 
@@ -55,7 +57,7 @@ def main():
     # timer
     start_time_all = time.perf_counter()
 
-    # spawn processes to use all cores
+    # spawn multiple processes to use all cores
     processes = []
     for i in range(num_physical_cores):
         index = i
