@@ -31,6 +31,6 @@ This code was developed while I was playing with LM Studio. The idea for a CPU s
 
 ## Usage
 To use PycpuTest:
-1. Modify the time_period variable in the main.py file to change the duration of the CPU stressing process.
-2. Execute the script using python main.py.
-3. Monitor the CPU utilization and system resources during execution.
+1. Execute the script using python main.py.
+2. Monitor the CPU utilization and system resources during execution.
+3. Good luck 🤞!!
