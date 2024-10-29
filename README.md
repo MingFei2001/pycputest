@@ -1,5 +1,12 @@
 # PycpuTest
-![Pycputest Logo](https://img.shield.io/badge/Languages-Python%20(3.8+)%20-%2300A86FC)
+```
+ ____         ____ ____  _   _ _____         _
+|  _ \ _   _ / ___|  _ \| | | |_   _|__  ___| |_
+| |_) | | | | |   | |_) | | | | | |/ _ \/ __| __|
+|  __/| |_| | |___|  __/| |_| | | |  __/\__ \ |_
+|_|    \__, |\____|_|    \___/  |_|\___||___/\__|
+       |___/
+```
 
 ## Overview
 PycpuTest is a Python script designed to stress the CPU's capabilities by performing computationally intensive tasks for a specified time period. This project utilizes multiple processes to take full advantage of multiple-core CPUs.
