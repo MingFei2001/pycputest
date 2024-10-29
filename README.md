@@ -34,3 +34,6 @@ To use PycpuTest:
 1. Execute the script using `python test.py`.
 2. Monitor the CPU utilization and system resources during execution.
 3. Good luck 🤞!!
+
+## License
+This project is licensed under MIT License.
