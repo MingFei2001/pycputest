@@ -31,6 +31,6 @@ This code was developed while I was playing with LM Studio. The idea for a CPU s
 
 ## Usage
 To use PycpuTest:
-1. Execute the script using python main.py.
+1. Execute the script using `python test.py`.
 2. Monitor the CPU utilization and system resources during execution.
 3. Good luck 🤞!!
