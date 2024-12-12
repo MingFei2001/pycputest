@@ -49,8 +49,7 @@ def main():
 
     # stdout message
     print("CPU Stressing Tool started. Press Ctrl+C to stop.")
-    print(f"Running for {test_time} second(s) on {
-          num_physical_cores} physical cores.")
+    print(f"Running for {test_time} second(s) on {num_physical_cores} physical cores.")
 
     # timer
     start_time_all = time.perf_counter()
